@@ -1,7 +1,7 @@
 # TQPF
 TQPF.jar was applied to the selection of optimal CRISPR/Cas9 target loci for bovine whole genome and human tumor&embryo genes. 2,293,508 bovine targets and 727,886 human targets with detailed off-target information are collated in MySQL database form, named as CRISPR_Base. Based on CRISPR_Base, statistical regularities of genome-wide targets and off-targets were revealed, and a ranking system with great reference value was proposed for selecting top priority target loci.Detail retrieval statments were as shown in Application_Examples.xlsx.
 
-One-Step method to build CRISPR_Base
+One-Step method to build CRISPR_Base:
 1.	Whether Windows or Linux, make sure your computer is installed MySQL database successfully.
 2.	For Windows, first, download the “CRISPR_Base.sql” file to “D:” disk. Second, login to the MySQL database as root, use the command “source D:\CRISPR_Base.sql”. The database building process will take a few minutes, please wait patiently.
 3.	For Linux, first, download the “CRISPR_Base.sql” file into “/home” directory. Second, login to the MySQL database as root, use the command “source /home/CRISPR_Base.sql”. 
