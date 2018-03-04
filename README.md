@@ -1,4 +1,5 @@
 TQPF Application Note
+
 1.Whether Windows or Linux, make sure your computer is installed JRE (Java SE Runtime Environment) properly and configure the CLASSPATH environment variables successfully. (Download JRE: http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html )
 2. For Windows version, in order to double-click to execute TQPF.jar, find the JAVA installed file like “C:\Program Files\Java\jre7\bin\javaw.exe”, and set javaw.exe as the default open app for TQPF. If can’t open with double-click now, the content of“HKEY_CLASSES_ROOT\Applications\javaw.exe\shell\open\command”in Registry Editor need to add the parameter “-jar”, like "C:\Program Files\Java\jre7\bin\javaw.exe" -jar "%1".
 3. Download and Double click TQPF.jar, the following Frame in Fig 1 will show up. There are two Panels in TQPF, “Pattern Finder” and “CS scanner”. 
