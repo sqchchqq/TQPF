@@ -6,7 +6,7 @@ TQPF Application Note
 
 3. Download and Double click TQPF.jar, the following Frame in Fig 1 will show up. There are two Panels in TQPF, “Pattern Finder” and “CS scanner”. 
 
-4. Using “CS scanner” for genome location information of target_Seq or off-target, reference base must be established like in the ReferenceBase_package.zip .
+4. Using “CS scanner” for genome location information of target_Seq or off-target, reference base must be established like in the ReferenceBase_package.zip. Download site: .
 
 5. Widget AnnotationThe long blank text field: must input the Capital Letters representing nucleotides.The short blank text field: must input the positive Integer.Be attention to two kinds of selection button, file selection and file directory selection.
 “Question mark”：Key tips will display when the cursor lingers over this component. "hexagon": This tag will turn from red to green when File or File Directory is selected successfully. And green will turn back to red when selection is failed.The “Loading parameters!” tag will turn to “Running…” when the “Get Result” is executing, and will turn to the Location of the result when the job is done.
